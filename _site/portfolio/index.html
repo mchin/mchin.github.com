@@ -11,6 +11,124 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="http://yourdomain.com/portfolio/">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="/js/modernizr.custom.js"></script>
+	<script src="/js/classie.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/elastic_grid.min.css" />
+    <script type="text/javascript" src="/js/elastic_grid.encode.js"></script>
+    
+    <script type="text/javascript">
+$(function () {
+    $("#demo").elastic_grid({
+        'filterEffect': '<a href="http://www.jqueryscript.net/tags.php?/popup/">popup</a>',
+        // moveup, scaleup, fallperspective, fly, flip, helix , popup
+        'hoverDirection': true,
+        'hoverDelay': 0,
+        'hoverInverse': false,
+        'expandingSpeed': 500,
+        'expandingHeight': 500,
+        'items': [{
+            'title': 'Ooma Pawnstars Sweepstakes Landing Page',
+            'description': 'HTML, CSS, jQuery<br/><br/>Responsive',
+            'thumbnail': ['/img/ooma-pawnstars-sm.jpg'],
+            'large': ['/img/ooma-pawnstars-lg.jpg'],
+            'button_list': [{
+                'title': 'View Larger',
+                'url': 'http://porfolio.bonchen.net/'
+            }, {
+                'title': 'View Page',
+                'url': 'http://porfolio.bonchen.net/'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Office Request a Quote & Demo Landing Page',
+            'description': ' HTML, CSS, jQuery',
+            'thumbnail': ['/img/office-request-quote-sm.jpg'],
+            'large': ['/img/office-request-quote-lg.jpg'],
+            'button_list': [{
+                'title': 'View Larger',
+                'url': 'http://porfolio.bonchen.net/'
+            }, {
+                'title': 'View Page',
+                'url': 'http://ooma.com/request-a-quote/'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Office Sweepstakes Landing Page',
+            'description': 'HTML, CSS',
+            'thumbnail': ['/img/office-sweepstakes-sm.jpg'],
+            'large': ['/img/office-sweepstakes-lg.jpg'],
+            'button_list': [{
+                'title': 'View Larger',
+                'url': 'http://porfolio.bonchen.net/'
+            }, {
+                //'title': 'View Page',
+               // 'url': 'http://ooma.com/'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Mothers Day Sweepstakes Landing Page',
+            'description': 'HTML, CSS, jQuery',
+            'thumbnail': ['/img/ooma-mothers-day-sm.jpg'],
+            'large': ['/img/ooma-mothers-day-lg.jpg'],
+            'button_list': [{
+                'title': 'View Larger',
+                'url': 'http://porfolio.bonchen.net/'
+            }, {
+                'title': 'View Page',
+                'url': 'http://ooma.com/callmomfree'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Homepage',
+            'description': 'Drupal, HTML, CSS',
+            'thumbnail': ['/img/ooma-homepage-sm.jpg'],
+            'large': ['/img/ooma-homepage-lg.jpg'],
+            'button_list': [{
+                'title': 'View Larger',
+                'url': 'http://porfolio.bonchen.net/'
+            }, {
+                'title': 'View Page',
+                'url': 'http://ooma.com'
+            }],
+            'tags': ['Websites']
+        }, {
+            'title': 'Ooma International Calling Landing Page',
+            'description': 'HTML, CSS',
+            'thumbnail': ['/img/ooma-international-sm.jpg'],
+            'large': ['/img/ooma-international-lg.jpg'],
+            'button_list': [{
+                'title': 'View Larger',
+                'url': 'http://porfolio.bonchen.net/'
+            }, {
+                'title': 'View Page',
+                'url': 'http://ooma.com/intlspecial'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Office Oomazing Microsite ',
+            'description': 'Drupal, HTML, CSS',
+            'thumbnail': ['/img/oomazing-office-sm.jpg'],
+            'large': ['/img/oomazing-office-lg.jpg'],
+            'button_list': [{
+                'title': 'View Larger',
+                'url': 'http://porfolio.bonchen.net/'
+            }, {
+                'title': 'View Page',
+                'url': 'http://oomazingoffice.com'
+            }],
+            'tags': ['Websites']
+        }
+
+       
+
+        ]
+    });
+});
+</script>
+    
+    
 </head>
 
 
@@ -36,13 +154,7 @@
           
           <a class="page-link" href="/about/">About</a>
           
-        
-          
-        
-          
-        
-          
-        
+    
           
           <a class="page-link" href="/portfolio/">Portfolio</a>
           
@@ -68,16 +180,15 @@
   </header>
 
   <article class="post-content">
-    <p>Here are links to some of my work:</p>
+    <p>Here are some examples of my work:</p>
 
-<p><a href="http://ooma.com/pawnstars">ooma.com/pawnstars</a></p>
 
-<p><a href="http://ooma.com/callmomfree">ooma.com/callmomfree</a></p>
-
-<p><a href="http://oomazingoffice.com">oomazingoffice.com</a> - Built on the Drupal CMS, non-responsive</p>
 
 
   </article>
+  
+  
+  <div id="demo"></div>
 
 </div>
 
@@ -123,7 +234,7 @@
                 </svg> -->
               </span>
 
-              <span class="username">linkedin</span>
+              <span class="username">@ linkedin</span>
             </a>
           </li>
           
