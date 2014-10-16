@@ -70,7 +70,7 @@ a {
     color: #1756a9; }
   a:hover {
     color: #111;
-    text-decoration: none; }
+    text-decoration: underline; }
 
 /**
  * Blockquotes
@@ -90,7 +90,7 @@ blockquote {
  */
 pre,
 code {
-  font-size: 15px;
+  font-size: 14px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
   background-color: #eef; }
