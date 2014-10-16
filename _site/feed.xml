@@ -3,10 +3,10 @@
   <channel>
     <title>Monica Chin</title>
     <description></description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Oct 2014 13:58:17 -0700</pubDate>
-    <lastBuildDate>Thu, 16 Oct 2014 13:58:17 -0700</lastBuildDate>
+    <link>http://mchin.github.io/</link>
+    <atom:link href="http://mchin.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 16 Oct 2014 14:44:21 -0700</pubDate>
+    <lastBuildDate>Thu, 16 Oct 2014 14:44:21 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Fri, 19 Sep 2014 07:09:30 -0700</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/09/19/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/09/19/welcome-to-jekyll.html</guid>
+        <link>http://mchin.github.io/jekyll/update/2014/09/19/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://mchin.github.io/jekyll/update/2014/09/19/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
