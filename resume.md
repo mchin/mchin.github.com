@@ -6,16 +6,13 @@ permalink: /resume/
 
 Experience:
 
-	Sr. Marketing Web Developer         May 2013 - present
+	Sr. Marketing Web Developer        
 	Ooma, Palo Alto, CA	
 	
-	Marketing Web Developer             December 2011 - April 2013
+	Marketing Web Developer           
 	Mindjet, San Francisco, CA
 	
-	E-commerce Development Associate    March 2011 - December 2011
-	Mindjet, San Francisco, CA
-	
-	Web Systems Engineer                April 2009 - October 2010
+	Web Systems Engineer               
 	E.mochila, San Francisco, CA
 	
 

@@ -6,17 +6,118 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Monica Chin</title>
+    <title>Portfolio</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://mchin.github.io/">
-    
+    <link rel="canonical" href="http://yourdomain.com/portfolio/">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="/js/modernizr.custom.js"></script>
 	<script src="/js/classie.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/elastic_grid.min.css" />
     <script type="text/javascript" src="/js/elastic_grid.encode.js"></script>
+
+    <script type="text/javascript">
+$(function () {
+    $("#portfolio-gallery").elastic_grid({
+        'filterEffect': '<a href="http://www.jqueryscript.net/tags.php?/popup/">popup</a>',
+        // moveup, scaleup, fallperspective, fly, flip, helix , popup
+        'hoverDirection': true,
+        'hoverDelay': 0,
+        'hoverInverse': false,
+        'expandingSpeed': 500,
+        'expandingHeight': 500,
+        'items': [{
+            'title': 'Ooma Pawnstars Sweepstakes Landing Page',
+            'description': 'HTML, CSS, jQuery<br/><br/>Responsive',
+            'thumbnail': ['/img/ooma-pawnstars-sm.jpg'],
+            'large': ['/img/ooma-pawnstars-lg.jpg'],
+            'button_list': [{
+                'title': 'View Page',
+                'url': 'http://ooma.com/pawnstars'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Office Request a Quote & Demo Landing Page',
+            'description': ' HTML, CSS, jQuery<br/><br/>Responsive',
+            'thumbnail': ['/img/office-request-quote-sm.jpg'],
+            'large': ['/img/office-request-quote-lg.jpg'],
+            'button_list': [{
+                'title': 'View Page',
+                'url': 'http://ooma.com/request-a-quote/'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Safety Phone Landing Page',
+            'description': ' HTML, CSS3<br/><br/>Responsive',
+            'thumbnail': ['/img/ooma-safetyphone-sm.jpg'],
+            'large': ['/img/ooma-safetyphone-lg.jpg'],
+            'button_list': [{
+                'title': 'View Page',
+                'url': 'http://ooma.com/safetyphone/'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Office Sweepstakes Landing Page',
+            'description': 'HTML, CSS<br/><br/>Responsive',
+            'thumbnail': ['/img/office-sweepstakes-sm.jpg'],
+            'large': ['/img/office-sweepstakes-lg.jpg'],
+            'button_list': [{
+                'title': 'Page No Longer Live',
+                'url': 'http://ooma.com/'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Mothers Day Sweepstakes Landing Page',
+            'description': 'HTML, CSS, jQuery<br/><br/>Responsive',
+            'thumbnail': ['/img/ooma-mothers-day-sm.jpg'],
+            'large': ['/img/ooma-mothers-day-lg.jpg'],
+            'button_list': [{
+                'title': 'View Page',
+                'url': 'http://ooma.com/callmomfree'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Homepage',
+            'description': 'Drupal, HTML, CSS',
+            'thumbnail': ['/img/ooma-homepage-sm.jpg'],
+            'large': ['/img/ooma-homepage-lg.jpg'],
+            'button_list': [{
+                'title': 'View Page',
+                'url': 'http://ooma.com'
+            }],
+            'tags': ['Websites']
+        }, {
+            'title': 'Ooma International Calling Landing Page',
+            'description': 'HTML, CSS<br/><br/>Responsive',
+            'thumbnail': ['/img/ooma-international-sm.jpg'],
+            'large': ['/img/ooma-international-lg.jpg'],
+            'button_list': [{
+                'title': 'View Page',
+                'url': 'http://ooma.com/intlspecial'
+            }],
+            'tags': ['Landing Pages']
+        }, {
+            'title': 'Ooma Office Oomazing Microsite ',
+            'description': 'Drupal, HTML, CSS',
+            'thumbnail': ['/img/oomazing-office-sm.jpg'],
+            'large': ['/img/oomazing-office-lg.jpg'],
+            'button_list': [{
+                'title': 'View Page',
+                'url': 'http://oomazingoffice.com'
+            }],
+            'tags': ['Websites']
+        }
+
+
+
+        ]
+    });
+});
+</script>
+
+
 </head>
 
 
@@ -38,25 +139,19 @@
       </a>
 
       <div class="trigger">
-        
-          
+
+
           <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-        
-          
+
+
+
           <a class="page-link" href="/portfolio/">Portfolio</a>
-          
-        
-          
+
+
+
           <a class="page-link" href="/resume/">Resume</a>
-          
-        
+
+
       </div>
     </nav>
 
@@ -67,33 +162,22 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Hutch thanks you for stopping by.</h1>
-  
-<img id="hutch" src="/img/hutch.jpg">
+  <header class="post-header">
+    <h1 class="post-title">Portfolio</h1>
+  </header>
 
-  <!--<ul class="post-list">
-=======
-  <h1 class="page-heading">Posts</h1>
+  <article class="post-content">
+    <p>Here are some examples of my work:</p>
 
-  <ul class="post-list">
 
-    
-      <li>
-        <span class="post-meta">Sep 19, 2014</span>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2014/09/19/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
-  -->
 
+  <div id="portfolio-gallery"></div>
 
 </div>
 
@@ -114,7 +198,6 @@
       <div class="footer-col  footer-col-2">
         <ul class="social-media-list">
 
-          
           <li>
             <a href="https://github.com/mchin">
               <span class="icon  icon--github">
@@ -124,13 +207,14 @@
                 </svg>
               </span> -->
 
-              <span class="username">@ github</span> 
+              <span class="username">@ github</span>
 
             </a>
           </li>
-          
 
-          
+
+
+
           <li>
             <a href="https://linkedin.com/in/monchin">
               <span class="icon  icon--linkedin">
@@ -143,7 +227,7 @@
               <span class="username">@ linkedin</span>
             </a>
           </li>
-          
+
         </ul>
       </div>
 
