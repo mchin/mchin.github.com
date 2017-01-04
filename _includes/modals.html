@@ -17,16 +17,16 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://ooma.com" target="_blank">{{ post.client }}</a>
+                                <li>URL:
+                                    <strong><a href="{{ post.page-url }}">{{ post.page-url }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
                                     <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong>{{ post.category }}
+                                <li>Code:
+                                    <strong><a href="{{ post.code-url }}">{{ post.code-url }}</a>
                                     </strong>
                                 </li>
                             </ul>
